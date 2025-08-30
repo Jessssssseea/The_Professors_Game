@@ -1,6 +1,6 @@
 def draw(heaps):
     for i, cnt in enumerate(heaps):
-        print(f"堆 {i}: " + "🪨 " * cnt)
+        print(f"堆 {i}: " + "🪨 " * cnt + str(cnt))
 
 def main():
     n = int(input("堆数："))
